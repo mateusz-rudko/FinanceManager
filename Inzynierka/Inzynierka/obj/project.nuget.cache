@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EKZjvnaJgWbOJdK+ChGC2GvATEHjqjl6WlbW6K4F+QmwZ0ai22nFIH2tY+6tFQCmXQD7sHguqyNywGr7/W547g==",
+  "dgSpecHash": "WRpT4V36pWvjYOJ26IS0N3/t2NFRxRn23BQy9FDV4Ourw7FFAfz54Op3SWc1ENmxSe8R3gaS4c0HPvwaRRDl7w==",
   "success": true,
-  "projectFilePath": "C:\\ProjektyNET\\Praca Inzynierska\\Inzynierka\\Inzynierka\\Inzynierka\\Inzynierka.csproj",
+  "projectFilePath": "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka\\Inzynierka.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ToNieJa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

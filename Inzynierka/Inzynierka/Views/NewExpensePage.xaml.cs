@@ -43,6 +43,7 @@ namespace Inzynierka.Views
             else
             {
                 Console.WriteLine("XD");
+                Console.WriteLine();
             }
         }
         public NewExpensePage()

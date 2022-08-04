@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjektyNET\\Praca Inzynierska\\Inzynierka\\Inzynierka\\Inzynierka.Android\\Inzynierka.Android.csproj",
+      "projectUniqueName": "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka.Android\\Inzynierka.Android.csproj",
       "projectName": "Inzynierka.Android",
-      "projectPath": "C:\\ProjektyNET\\Praca Inzynierska\\Inzynierka\\Inzynierka\\Inzynierka.Android\\Inzynierka.Android.csproj",
+      "projectPath": "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka.Android\\Inzynierka.Android.csproj",
       "packagesPath": "C:\\Users\\ToNieJa\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjektyNET\\Praca Inzynierska\\Inzynierka\\Inzynierka\\Inzynierka.Android\\obj\\",
+      "outputPath": "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\ProjektyNET\\Praca Inzynierska\\Inzynierka\\Inzynierka\\Inzynierka\\Inzynierka.csproj": {
-              "projectPath": "C:\\ProjektyNET\\Praca Inzynierska\\Inzynierka\\Inzynierka\\Inzynierka\\Inzynierka.csproj"
+            "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka\\Inzynierka.csproj": {
+              "projectPath": "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka\\Inzynierka.csproj"
             }
           }
         }

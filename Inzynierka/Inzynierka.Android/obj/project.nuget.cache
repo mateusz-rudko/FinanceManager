@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HYjlSQbYW0ZE5mWjdKJ4JoOxjRWss9AGgxSrrYFM9Z+XO9N9GP5Sg35XkH81O5sDqIHk2hSPvqrFBfSYUGGDqg==",
+  "dgSpecHash": "SQl+J9KGpO9cMeuHUSvcRfm9dairrbnDvYsWnU1i8D9t+/dEiSE24KRwHcIa2ECMEb8MiMMoVp5+NEQqLr9sXA==",
   "success": true,
-  "projectFilePath": "C:\\ProjektyNET\\Praca Inzynierska\\Inzynierka\\Inzynierka\\Inzynierka.Android\\Inzynierka.Android.csproj",
+  "projectFilePath": "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka.Android\\Inzynierka.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ToNieJa\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
