@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout >
             <Grid ColumnDefinitions="1*, 1*" RowDefinitions="1*, Auto">
-                <Button Grid.Row="0" Grid.Column="0" TextColor="White" Text="Add New Income"/>
+                <Button Grid.Row="0" Grid.Column="0" TextColor="White" Text="Add New Income" Clicked="IncomeButtonClicked"/>
                 <Button Grid.Row="0" Grid.Column="1" TextColor="White" Text="Add New Expense" Clicked="ExpenseButtonClicked"/>
             </Grid>
            

@@ -16,3 +16,23 @@ C:\ProjektyNET\Praca Inzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\nets
 C:\ProjektyNET\Praca Inzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\AccountPage.xaml.g.cs
 C:\ProjektyNET\Praca Inzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\StatsPage.xaml.g.cs
 C:\ProjektyNET\Praca Inzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\NewExpensePage.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\bin\Debug\netstandard2.0\Inzynierka.deps.json
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\bin\Debug\netstandard2.0\Inzynierka.dll
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\bin\Debug\netstandard2.0\Inzynierka.pdb
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Inzynierka.csproj.AssemblyReference.cache
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Inzynierka.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\AccountPage.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\NewExpensePage.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\StatsPage.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Inzynierka.AssemblyInfoInputs.cache
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Inzynierka.AssemblyInfo.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Inzynierka.csproj.CoreCompileInputs.cache
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\XamlC.stamp
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Inzynierka.dll
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\refint\Inzynierka.dll
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Inzynierka.pdb
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\ref\Inzynierka.dll
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\Test.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\NewIncomePage.xaml.g.cs

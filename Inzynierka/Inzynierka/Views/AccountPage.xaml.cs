@@ -16,7 +16,10 @@ namespace Inzynierka.Views
         {
             InitializeComponent();
         }
-
+        private async void IncomeButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new NewIncomePage()));
+        }
         private async void ExpenseButtonClicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new NavigationPage(new NewExpensePage()));

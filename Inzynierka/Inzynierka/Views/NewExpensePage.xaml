@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Inzynierka.Views.NewExpensePage"
-             Background="Gray">
+             >
     <ContentPage.Content>
         <StackLayout>
             
@@ -10,10 +10,10 @@
             <Entry x:Name="NameEntry"  Placeholder="name of expense"/>
             
             <Label Text="Price"/>
-            <Entry x:Name="PriceEntry"  Placeholder="price"/>
+            <Entry x:Name="PriceEntry" Keyboard="Numeric" Placeholder="price"/>
             
             <Label x:Name="DescriptionCategory" Text="Category" />
-            <Picker x:Name="CategoryPicker" TextColor="Black" />
+            <Picker x:Name="CategoryPicker" TextColor="Black"/>
             
             <Label x:Name="DescriptionDate" Text="Date" />
             
