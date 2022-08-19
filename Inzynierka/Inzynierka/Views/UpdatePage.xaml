@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inzynierka.Views.UpdatePage"
+             BackgroundColor="	#ccccff">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Name" />
+            <Entry x:Name="nameEntry"  Placeholder="name of expense" Text="{Binding Name}"/>
+
+            <Label Text="Price"/>
+            <Entry x:Name="priceEntry" Keyboard="Numeric" Placeholder="price" Text="{Binding Price}"/>
+
+            <Label Text="Description"/>
+            <Entry x:Name="descriptionEntry" Placeholder="Description" Text="{Binding Description}"/>
+
+            <Label Text="Category" />
+            <Picker x:Name="categoryPicker" TextColor="Black" SelectedItem="{Binding Category}"/>
+
+            <Label Text="Date" />
+            <DatePicker x:Name="datePicker" TextColor="Black" Date="{Binding Date}"/>
+            
+            <Button Text="Wypeirdalaj" Clicked="ExitButtonClicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "WRpT4V36pWvjYOJ26IS0N3/t2NFRxRn23BQy9FDV4Ourw7FFAfz54Op3SWc1ENmxSe8R3gaS4c0HPvwaRRDl7w==",
+  "dgSpecHash": "DRrLr/cnHNGwzldoPpcSQHU66nEPqlpiyHMPAL7LvUEyXUiPnV8y2UI8ZxqRgpfgxsWcrLW4g4gwMvEfz3xjVQ==",
   "success": true,
   "projectFilePath": "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka\\Inzynierka.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ToNieJa\\.nuget\\packages\\microcharts\\0.9.5.8\\microcharts.0.9.5.8.nupkg.sha512",
+    "C:\\Users\\ToNieJa\\.nuget\\packages\\microcharts.forms\\0.9.5.8\\microcharts.forms.0.9.5.8.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ToNieJa\\.nuget\\packages\\skiasharp\\2.80.2\\skiasharp.2.80.2.nupkg.sha512",
+    "C:\\Users\\ToNieJa\\.nuget\\packages\\skiasharp.views.forms\\2.80.2\\skiasharp.views.forms.2.80.2.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
@@ -15,6 +19,7 @@
     "C:\\Users\\ToNieJa\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\ToNieJa\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

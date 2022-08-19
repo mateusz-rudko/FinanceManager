@@ -1,22 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Inzynierka.Views.NewIncomePage">
+             x:Class="Inzynierka.Views.NewIncomePage"
+             BackgroundColor="	#ccccff">
     <ContentPage.Content>
         <StackLayout>
 
             <Label Text="Name" />
-            <Entry x:Name="NameEntry"  Placeholder="name of expense"/>
+            <Entry x:Name="nameEntry"  Placeholder="name of expense"/>
 
             <Label Text="Price"/>
-            <Entry x:Name="PriceEntry" Keyboard="Numeric" Placeholder="price"/>
+            <Entry x:Name="priceEntry" Keyboard="Numeric" Placeholder="price"/>
 
-            <Label x:Name="DescriptionCategory" Text="Category" />
-            <Picker x:Name="CategoryPicker" TextColor="Black"/>
+            <Label Text="Description"/>
+            <Entry x:Name="descriptionEntry" Placeholder="Description"/>
+            
+            <Label Text="Category" />
+            <Picker x:Name="categoryPicker" TextColor="Black"/>
 
-            <Label x:Name="DescriptionDate" Text="Date" />
+            <Label Text="Date" />
 
-            <DatePicker x:Name="DatePicker" TextColor="Black" />
+            <DatePicker x:Name="datePicker" TextColor="Black" />
             <Grid ColumnDefinitions="1*, 1*" RowDefinitions="1*, Auto">
                 <Button Grid.Row="0" Grid.Column="0" TextColor="White" Text="Exit" Clicked="ExitButtonClicked"/>
                 <Button Grid.Row="0" Grid.Column="1" TextColor="White" Text="Submit" Clicked="SubmitButtonClicked"/>

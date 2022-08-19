@@ -1,13 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="Inzynierka.Views.StatsPage"
-            >
+             BackgroundColor="	#ccccff">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Stats"
-                VerticalOptions="CenterAndExpand" 
+                
                 HorizontalOptions="CenterAndExpand" />
+            <Frame CornerRadius="15" BorderColor="#213" BackgroundColor="#213" Padding="5" Margin="10">
+                <Frame CornerRadius="11">
+                    <forms:ChartView x:Name="Chart1" HeightRequest="200" HorizontalOptions="FillAndExpand"/>
+                </Frame>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

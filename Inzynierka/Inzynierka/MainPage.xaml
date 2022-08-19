@@ -7,7 +7,7 @@
 
     <local:AccountPage Title="Account"></local:AccountPage>
     <local:StatsPage Title="Stats"></local:StatsPage>
-    <local:Test Title="Test"></local:Test>
+    
    
 
 </TabbedPage>

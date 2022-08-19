@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inzynierka.Views.HistoryRecordPage"
+             BackgroundColor="	#ccccff">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="Income" HorizontalOptions="Center" Text="Income" IsVisible="false"/>
+            <Label x:Name="Expense" HorizontalOptions="Center" Text="Expense" IsVisible="false"/>
+
+
+            <StackLayout x:Name="rekord" >
+                <Label x:Name="nameLbl" />
+                <Label x:Name="priceLbl" />
+                <Label x:Name="categoryLbl"  />
+                <Label x:Name="descriptionLbl" />
+                <Label x:Name="isIncomeLbl" />
+                <Label x:Name="dateLbl"  />
+            </StackLayout>
+
+            <Grid ColumnDefinitions="1*, 1*, 1*" RowDefinitions="1*, Auto">
+                <Button Grid.Row="0" Grid.Column="0" TextColor="White" Text="Update" Clicked="UpdateButtonClicked"/>
+                <Button Grid.Row="0" Grid.Column="1" TextColor="White" Text="Delete" Clicked="DeleteButtonClicked"/>
+                <Button Grid.Row="0" Grid.Column="2" TextColor="White" Text="Exit" Clicked="ExitButtonClicked"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

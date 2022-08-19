@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inzynierka.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,27 +18,36 @@ namespace Inzynierka.Views
         public DateTime Date { get; set; } = DateTime.Now;
         public List<string> Categorys = new List<string>()
             {
-                "Zakupy spożywcze",
-                "Utrzymanie auta",
+                "Groceries",
+                "Car Maintenance",
                 "Salary",
                 "Services",
-                "Food",
                 "Gadgets",
-                "Persons"
 
             };
         private async void ExitButtonClicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
         }
-        private void SubmitButtonClicked(object sender, EventArgs e)
+        private async void SubmitButtonClicked(object sender, EventArgs e)
         {
-            if (NameEntry.Text != null && PriceEntry.Text != null && CategoryPicker.SelectedItem != null && DatePicker.Date != null)
+            if (nameEntry.Text != null && priceEntry.Text != null && categoryPicker.SelectedItem != null && datePicker.Date != null)
             {
-                Console.WriteLine(NameEntry.Text);
-                Console.WriteLine(PriceEntry.Text);
-                Console.WriteLine(CategoryPicker.SelectedItem);
-                Console.WriteLine(DatePicker.Date);
+                await App.Database.AddNewTransaction(new Transaction
+                {
+                    Name = nameEntry.Text,
+                    Price = float.Parse(priceEntry.Text),
+                    Description = descriptionEntry.Text,
+                    Category = categoryPicker.SelectedItem.ToString(),
+                    Date = Convert.ToDateTime(datePicker.Date.ToShortDateString()),
+                    IsIncome = true
+                });
+                await Navigation.PopModalAsync();
+
+                Console.WriteLine(nameEntry.Text);
+                Console.WriteLine(priceEntry.Text);
+                Console.WriteLine(categoryPicker.SelectedItem);
+                Console.WriteLine(datePicker.Date);
             }
             else
             {
@@ -48,9 +58,9 @@ namespace Inzynierka.Views
         public NewIncomePage()
         {
             InitializeComponent();
-            CategoryPicker.ItemsSource = Categorys;
-            CategoryPicker.SelectedItem = SelectedCategory;
-            DatePicker.Date = Date;
+            categoryPicker.ItemsSource = Categorys;
+            categoryPicker.SelectedItem = SelectedCategory;
+            datePicker.Date = Date;
         }
     }
 }

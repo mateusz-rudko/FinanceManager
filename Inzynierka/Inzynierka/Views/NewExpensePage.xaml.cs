@@ -16,29 +16,39 @@ namespace Inzynierka.Views
         public string SelectedCategory { get; set; }
         public DateTime DateTime { get; set; }
         public DateTime Date { get; set; } = DateTime.Now;
-        public List<string> Categorys = new List<string>()
+        public List<string> Categories = new List<string>()
             {
-                "Zakupy spożywcze",
-                "Utrzymanie auta",
+                "Groceries",
+                "Car Maintenance",
                 "Salary",
                 "Services",
-                "Food",
                 "Gadgets",
-                "Persons"
-
             };
         private async void ExitButtonClicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
         }
-        private void SubmitButtonClicked(object sender, EventArgs e)
+        private async void SubmitButtonClicked(object sender, EventArgs e)
         {
-            if (NameEntry.Text != null && PriceEntry.Text!=null && CategoryPicker.SelectedItem!=null && DatePicker.Date!=null)
+            if (nameEntry.Text != null && priceEntry.Text!=null &&  categoryPicker.SelectedItem!=null && datePicker.Date!=null) 
             {
-                Console.WriteLine(NameEntry.Text);
-                Console.WriteLine(PriceEntry.Text);
-                Console.WriteLine(CategoryPicker.SelectedItem);
-                Console.WriteLine(DatePicker.Date);
+                //Console.WriteLine("date "+ Convert.ToDateTime(datePicker.Date.ToString("dd/MM/yyyy")));
+                await App.Database.AddNewTransaction(new Transaction
+                {
+                    Name = nameEntry.Text,
+                    Price = float.Parse(priceEntry.Text),
+                    Description = descriptionEntry.Text,
+                    Category = categoryPicker.SelectedItem.ToString(),
+                    Date = Convert.ToDateTime(datePicker.Date.ToShortDateString()),
+                    IsIncome = false
+                }) ;
+
+                await Navigation.PopModalAsync();
+
+                Console.WriteLine(nameEntry.Text);
+                Console.WriteLine(priceEntry.Text);
+                Console.WriteLine(categoryPicker.SelectedItem);
+                Console.WriteLine(datePicker.Date);
             }
             else
             {
@@ -49,9 +59,9 @@ namespace Inzynierka.Views
         public NewExpensePage()
         {
             InitializeComponent();
-            CategoryPicker.ItemsSource = Categorys;
-            CategoryPicker.SelectedItem = SelectedCategory;
-            DatePicker.Date = Date;
+            categoryPicker.ItemsSource = Categories;
+            categoryPicker.SelectedItem = SelectedCategory;
+            datePicker.Date = Date;
 
         }
 
