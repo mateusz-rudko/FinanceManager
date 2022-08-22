@@ -19,8 +19,11 @@
 
             <Label Text="Date" />
             <DatePicker x:Name="datePicker" TextColor="Black" Date="{Binding Date}"/>
-            
-            <Button Text="Wypeirdalaj" Clicked="ExitButtonClicked"></Button>
+
+            <Grid ColumnDefinitions="1*,1*" RowDefinitions="1*">
+                <Button Text="Update" Clicked="UpdateButtonClicked" Grid.Column="0" Grid.Row="0"/>
+                <Button Text="Exit" Clicked="ExitButtonClicked" Grid.Column="1" Grid.Row="0"/>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

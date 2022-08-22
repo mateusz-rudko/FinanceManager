@@ -39,7 +39,7 @@ namespace Inzynierka.Views
                     Price = float.Parse(priceEntry.Text),
                     Description = descriptionEntry.Text,
                     Category = categoryPicker.SelectedItem.ToString(),
-                    Date = Convert.ToDateTime(datePicker.Date.ToShortDateString()),
+                    Date = Convert.ToDateTime(datePicker.Date),
                     IsIncome = false
                 }) ;
 

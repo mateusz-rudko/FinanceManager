@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "x4VdXx5+01iu0hgdI+NI3KTDK+xD4HIdLqtTwHBEnVbjozS5xAWV76Z0XeyQWXQIvDQ5cwrnIhaIUYXLU7vCnw==",
+  "dgSpecHash": "zBBWav/at+tmz7MF+ETjl5WB19Ad9JKrH0K/Yx9XH72mEVWR3yA35LqgV5auDz6WJHjEeYFZSwuAq6IEEoMZlg==",
   "success": true,
   "projectFilePath": "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka.Android\\Inzynierka.Android.csproj",
   "expectedPackageFiles": [
@@ -72,8 +72,9 @@
     "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.8\\xamarin.androidx.versionedparcelable.1.1.1.8.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.8\\xamarin.androidx.viewpager.1.0.0.8.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
+    "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.4\\xamarin.communitytoolkit.2.0.4.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],

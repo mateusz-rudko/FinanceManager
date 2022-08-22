@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="Inzynierka.Popups.DeletePopup"
+             Size="300,300">
+    <StackLayout>
+        <Label Text="Do you want delete the record?" HorizontalTextAlignment="Center"/>
+        <Grid ColumnDefinitions="1*,1*" RowDefinitions="1*">
+            <Button Text="Yes" Grid.Column="0" Grid.Row="0" Clicked="YesButtonClicked"/>
+            <Button Text="No" Grid.Column="1" Grid.Row="0" Clicked="NoButtonClicked"/>
+        </Grid>
+        
+    </StackLayout>
+
+
+</xct:Popup>

@@ -8,6 +8,9 @@ using Inzynierka.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SQLite;
+using Xamarin.CommunityToolkit;
+using Xamarin.CommunityToolkit.Extensions;
+using Inzynierka.Popups;
 
 namespace Inzynierka.Views
 {
@@ -50,18 +53,15 @@ namespace Inzynierka.Views
         {
             await Navigation.PopModalAsync();
         }
-        private async void DeleteButtonClicked(object sender, EventArgs e)
+        
+        private  void DeleteButtonClicked(object sender, EventArgs e)
         {
-
-            await App.Database.RemoveTransaction(_transaction);
-          
-
-            await Navigation.PopModalAsync();
-
+            Navigation.ShowPopup(new DeletePopup(_transaction));
         }
         private async void UpdateButtonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new UpdatePage());
+           
+            await Navigation.PushModalAsync(new UpdatePage(_transaction));
         }
     }
 }

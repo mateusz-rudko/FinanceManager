@@ -37,3 +37,5 @@ C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netst
 C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\NewIncomePage.xaml.g.cs
 C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\HistoryRecordPage.xaml.g.cs
 C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\UpdatePage.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Popups\DeletePopup.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Popups\UpdatePopup.xaml.g.cs

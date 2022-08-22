@@ -27,6 +27,10 @@ namespace Inzynierka.Services
         {
             return _database.DeleteAsync(transaction);
         }
+        public Task<int> UpdateTransaction(Transaction transaction)
+        {
+            return _database.UpdateAsync(transaction);
+        }
         
     }
 }
