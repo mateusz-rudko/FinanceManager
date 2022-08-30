@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inzynierka.Views.NotificationRecordPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout >
+                <Label Text="Name:" Style="{x:StaticResource basicLabel}"/>
+                <Label FontSize="18" x:Name="nameLbl" />
+
+                <Label Text="Description:" Style="{x:StaticResource basicLabel}"/>
+                <Label FontSize="18" x:Name="descriptionLbl" />
+
+                <Label Text="Date:" Style="{x:StaticResource basicLabel}"/>
+                <Label FontSize="18" x:Name="dateLbl"/>
+            </StackLayout>
+
+            <Grid ColumnDefinitions="1*, 1*" RowDefinitions="1*, 1*">
+                <Button Grid.Row="0" Grid.Column="0" TextColor="White" Text="Delete" Clicked="DeleteButtonClicked"/>
+                <Button Grid.Row="0" Grid.Column="1" TextColor="White" Text="Exit" Clicked="ExitButtonClicked"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

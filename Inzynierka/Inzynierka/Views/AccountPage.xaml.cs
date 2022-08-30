@@ -46,6 +46,11 @@ namespace Inzynierka.Views
 
             await Navigation.PushModalAsync(new HistoryRecordPage(transaction));
         }
-       
+        async void NotificationPageClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new NotificationsPage()));
+        }
+
+
     }
 }

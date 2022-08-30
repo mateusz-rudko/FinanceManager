@@ -39,3 +39,7 @@ C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netst
 C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\UpdatePage.xaml.g.cs
 C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Popups\DeletePopup.xaml.g.cs
 C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Popups\UpdatePopup.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\NewNotificationPage.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\NotificationsPage.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Views\NotificationRecordPage.xaml.g.cs
+C:\ProjektyNET\PracaInzynierska\Inzynierka\Inzynierka\Inzynierka\obj\Debug\netstandard2.0\Popups\DeleteNotificationPopup.xaml.g.cs

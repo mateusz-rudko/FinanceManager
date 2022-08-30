@@ -9,8 +9,10 @@
     ".NETStandard,Version=v2.0/": {
       "Inzynierka/1.0.0": {
         "dependencies": {
+          "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.8",
           "NETStandard.Library": "2.0.3",
+          "Plugin.LocalNotification": "5.2.0",
           "Xamarin.CommunityToolkit": "2.0.4",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2291",
@@ -20,7 +22,7 @@
           "Inzynierka.dll": {}
         }
       },
-      "Microcharts/0.9.5.8": {
+      "Microcharts/0.9.5.9": {
         "dependencies": {
           "SkiaSharp": "2.80.2",
           "System.ValueTuple": "4.5.0"
@@ -34,7 +36,7 @@
       },
       "Microcharts.Forms/0.9.5.8": {
         "dependencies": {
-          "Microcharts": "0.9.5.8",
+          "Microcharts": "0.9.5.9",
           "SkiaSharp": "2.80.2",
           "SkiaSharp.Views.Forms": "2.80.2",
           "System.ValueTuple": "4.5.0",
@@ -55,6 +57,14 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Plugin.LocalNotification/5.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.LocalNotification.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
         }
       },
       "SkiaSharp/2.80.2": {
@@ -237,12 +247,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microcharts/0.9.5.8": {
+    "Microcharts/0.9.5.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-igm9t5XVPR4Zm3IYp0zWgVdAdIbDMwT4Mcu8uV45nHyt9iI9cyxhu5UO6fjucWNvHb+GS5ttpYjnOH935gIv4A==",
-      "path": "microcharts/0.9.5.8",
-      "hashPath": "microcharts.0.9.5.8.nupkg.sha512"
+      "sha512": "sha512-oiaPjsC+l211tRXw17bxT7D1uPHLZG4wZq7w9h9w7LFX76s4ppLN9UGVkUQJ2vBammdFH0JXtbvEUVtbOq85UQ==",
+      "path": "microcharts/0.9.5.9",
+      "hashPath": "microcharts.0.9.5.9.nupkg.sha512"
     },
     "Microcharts.Forms/0.9.5.8": {
       "type": "package",
@@ -264,6 +274,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Plugin.LocalNotification/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5F4CXTSMtiJe6bw2EqFgZ2qtQuQxqdRdA0NwjbnX9tB9/q7KN/I7NQFU7DqBIOFiylEFJe34tl97YM6XMFWsxg==",
+      "path": "plugin.localnotification/5.2.0",
+      "hashPath": "plugin.localnotification.5.2.0.nupkg.sha512"
     },
     "SkiaSharp/2.80.2": {
       "type": "package",

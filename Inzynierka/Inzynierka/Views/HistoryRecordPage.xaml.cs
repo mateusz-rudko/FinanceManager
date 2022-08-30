@@ -35,7 +35,7 @@ namespace Inzynierka.Views
             categoryLabel.Text = transaction.Category;
             descriptionLabel.Text = transaction.Description;
             isIncomeLabel.Text = transaction.IsIncome.ToString();
-            dateLabel.Text = transaction.Date.ToString();
+            dateLabel.Text = transaction.Date.ToString("d");
             if (isIncomeLabel.Text == "False")
             {
                 Expense.IsVisible = true;

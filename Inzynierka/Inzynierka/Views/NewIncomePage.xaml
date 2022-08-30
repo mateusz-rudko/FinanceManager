@@ -6,17 +6,17 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Label Text="Name" />
+            <Label Text="Name" Style="{x:StaticResource basicLabel}"/>
             <Entry x:Name="nameEntry"  Placeholder="name of expense"/>
 
-            <Label Text="Price"/>
+            <Label Text="Price" Style="{x:StaticResource basicLabel}"/>
             <Entry x:Name="priceEntry" Keyboard="Numeric" Placeholder="price"/>
 
-            <Label Text="Description"/>
+            <Label Text="Description" Style="{x:StaticResource basicLabel}"/>
             <Entry x:Name="descriptionEntry" Placeholder="Description"/>
-            
-            <Label Text="Category" />
-            <Picker x:Name="categoryPicker" TextColor="Black"/>
+
+            <Label Text="Category" Style="{x:StaticResource basicLabel}"/>
+            <Picker x:Name="categoryPicker" TextColor="Black" />
 
             <Label Text="Date" />
 

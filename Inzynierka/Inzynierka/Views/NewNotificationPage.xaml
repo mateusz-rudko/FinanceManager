@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inzynierka.Views.NewNotificationPage"
+             BackgroundColor="	#ccccff">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="Name" Style="{x:StaticResource basicLabel}"/>
+            <Entry x:Name="notificationName" Placeholder="Name of notification"/>
+
+            <Label Text="Description" Style="{x:StaticResource basicLabel}"/>
+            <Entry x:Name="notificationDescription" Placeholder="Description of notification"/>
+
+            <Label Text="Date of notification" Style="{x:StaticResource basicLabel}"/>
+            <DatePicker x:Name="notificationDataPicker"/>
+
+            <Label Text="Time of notification" Style="{x:StaticResource basicLabel}"/>
+            <TimePicker x:Name="notificationTimePicker"/>
+
+            <Button Text="Add" Clicked="AddButtonClicked"/>
+            <Button Text="Exit" Clicked="ExitButtonClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

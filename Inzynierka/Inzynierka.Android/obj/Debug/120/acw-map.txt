@@ -4,6 +4,12 @@ inzynierka.droid.MainActivity;crc649c53ad9a0433b126.MainActivity
 Microcharts.Droid.ChartView, Microcharts.Droid;crc64e9f97cf19b8286a9.ChartView
 Microcharts.Droid.ChartView;crc64e9f97cf19b8286a9.ChartView
 microcharts.droid.ChartView;crc64e9f97cf19b8286a9.ChartView
+Plugin.LocalNotification.Platform.Droid.BootReceiver, Plugin.LocalNotification;crc64df999be563077fc4.BootReceiver
+Plugin.LocalNotification.Platform.Droid.BootReceiver;crc64df999be563077fc4.BootReceiver
+plugin.localnotification.platform.droid.BootReceiver;crc64df999be563077fc4.BootReceiver
+Plugin.LocalNotification.Platform.Droid.ScheduledNotificationWorker, Plugin.LocalNotification;crc64df999be563077fc4.ScheduledNotificationWorker
+Plugin.LocalNotification.Platform.Droid.ScheduledNotificationWorker;crc64df999be563077fc4.ScheduledNotificationWorker
+plugin.localnotification.platform.droid.ScheduledNotificationWorker;crc64df999be563077fc4.ScheduledNotificationWorker
 SkiaSharp.Views.Android.GLTextureView, SkiaSharp.Views.Android;crc648e35430423bd4943.GLTextureView
 SkiaSharp.Views.Android.GLTextureView;crc648e35430423bd4943.GLTextureView
 skiasharp.views.android.GLTextureView;crc648e35430423bd4943.GLTextureView
@@ -1228,6 +1234,93 @@ mono.androidx.recyclerview.widget.RecyclerView_RecyclerListenerImplementor;mono.
 AndroidX.RecyclerView.Widget.RecyclerView+SmoothScroller+IScrollVectorProvider, Xamarin.AndroidX.RecyclerView;androidx.recyclerview.widget.RecyclerView$SmoothScroller$ScrollVectorProvider
 AndroidX.RecyclerView.Widget.RecyclerView.SmoothScroller.IScrollVectorProvider;androidx.recyclerview.widget.RecyclerView$SmoothScroller$ScrollVectorProvider
 androidx.recyclerview.widget.RecyclerView$SmoothScroller$ScrollVectorProvider;androidx.recyclerview.widget.RecyclerView$SmoothScroller$ScrollVectorProvider
+AndroidX.Room.IColumnInfoCollate, Xamarin.AndroidX.Room.Common;androidx.room.ColumnInfo$Collate
+AndroidX.Room.IColumnInfoCollate;androidx.room.ColumnInfo$Collate
+androidx.room.ColumnInfo$Collate;androidx.room.ColumnInfo$Collate
+AndroidX.Room.IColumnInfoSQLiteTypeAffinity, Xamarin.AndroidX.Room.Common;androidx.room.ColumnInfo$SQLiteTypeAffinity
+AndroidX.Room.IColumnInfoSQLiteTypeAffinity;androidx.room.ColumnInfo$SQLiteTypeAffinity
+androidx.room.ColumnInfo$SQLiteTypeAffinity;androidx.room.ColumnInfo$SQLiteTypeAffinity
+AndroidX.Room.IColumnInfo, Xamarin.AndroidX.Room.Common;androidx.room.ColumnInfo
+AndroidX.Room.IColumnInfo;androidx.room.ColumnInfo
+androidx.room.ColumnInfo;androidx.room.ColumnInfo
+AndroidX.Room.IDao, Xamarin.AndroidX.Room.Common;androidx.room.Dao
+AndroidX.Room.IDao;androidx.room.Dao
+androidx.room.Dao;androidx.room.Dao
+AndroidX.Room.IDatabase, Xamarin.AndroidX.Room.Common;androidx.room.Database
+AndroidX.Room.IDatabase;androidx.room.Database
+androidx.room.Database;androidx.room.Database
+AndroidX.Room.IDatabaseView, Xamarin.AndroidX.Room.Common;androidx.room.DatabaseView
+AndroidX.Room.IDatabaseView;androidx.room.DatabaseView
+androidx.room.DatabaseView;androidx.room.DatabaseView
+AndroidX.Room.IDelete, Xamarin.AndroidX.Room.Common;androidx.room.Delete
+AndroidX.Room.IDelete;androidx.room.Delete
+androidx.room.Delete;androidx.room.Delete
+AndroidX.Room.IEmbedded, Xamarin.AndroidX.Room.Common;androidx.room.Embedded
+AndroidX.Room.IEmbedded;androidx.room.Embedded
+androidx.room.Embedded;androidx.room.Embedded
+AndroidX.Room.IEntity, Xamarin.AndroidX.Room.Common;androidx.room.Entity
+AndroidX.Room.IEntity;androidx.room.Entity
+androidx.room.Entity;androidx.room.Entity
+AndroidX.Room.IForeignKeyAction, Xamarin.AndroidX.Room.Common;androidx.room.ForeignKey$Action
+AndroidX.Room.IForeignKeyAction;androidx.room.ForeignKey$Action
+androidx.room.ForeignKey$Action;androidx.room.ForeignKey$Action
+AndroidX.Room.IForeignKey, Xamarin.AndroidX.Room.Common;androidx.room.ForeignKey
+AndroidX.Room.IForeignKey;androidx.room.ForeignKey
+androidx.room.ForeignKey;androidx.room.ForeignKey
+AndroidX.Room.IFts3, Xamarin.AndroidX.Room.Common;androidx.room.Fts3
+AndroidX.Room.IFts3;androidx.room.Fts3
+androidx.room.Fts3;androidx.room.Fts3
+AndroidX.Room.IFts4, Xamarin.AndroidX.Room.Common;androidx.room.Fts4
+AndroidX.Room.IFts4;androidx.room.Fts4
+androidx.room.Fts4;androidx.room.Fts4
+AndroidX.Room.IIgnore, Xamarin.AndroidX.Room.Common;androidx.room.Ignore
+AndroidX.Room.IIgnore;androidx.room.Ignore
+androidx.room.Ignore;androidx.room.Ignore
+AndroidX.Room.IIndex, Xamarin.AndroidX.Room.Common;androidx.room.Index
+AndroidX.Room.IIndex;androidx.room.Index
+androidx.room.Index;androidx.room.Index
+AndroidX.Room.IInsert, Xamarin.AndroidX.Room.Common;androidx.room.Insert
+AndroidX.Room.IInsert;androidx.room.Insert
+androidx.room.Insert;androidx.room.Insert
+AndroidX.Room.IJunction, Xamarin.AndroidX.Room.Common;androidx.room.Junction
+AndroidX.Room.IJunction;androidx.room.Junction
+androidx.room.Junction;androidx.room.Junction
+AndroidX.Room.IOnConflictStrategy, Xamarin.AndroidX.Room.Common;androidx.room.OnConflictStrategy
+AndroidX.Room.IOnConflictStrategy;androidx.room.OnConflictStrategy
+androidx.room.OnConflictStrategy;androidx.room.OnConflictStrategy
+AndroidX.Room.IPrimaryKey, Xamarin.AndroidX.Room.Common;androidx.room.PrimaryKey
+AndroidX.Room.IPrimaryKey;androidx.room.PrimaryKey
+androidx.room.PrimaryKey;androidx.room.PrimaryKey
+AndroidX.Room.IQuery, Xamarin.AndroidX.Room.Common;androidx.room.Query
+AndroidX.Room.IQuery;androidx.room.Query
+androidx.room.Query;androidx.room.Query
+AndroidX.Room.IRawQuery, Xamarin.AndroidX.Room.Common;androidx.room.RawQuery
+AndroidX.Room.IRawQuery;androidx.room.RawQuery
+androidx.room.RawQuery;androidx.room.RawQuery
+AndroidX.Room.IRelation, Xamarin.AndroidX.Room.Common;androidx.room.Relation
+AndroidX.Room.IRelation;androidx.room.Relation
+androidx.room.Relation;androidx.room.Relation
+AndroidX.Room.ISkipQueryVerification, Xamarin.AndroidX.Room.Common;androidx.room.SkipQueryVerification
+AndroidX.Room.ISkipQueryVerification;androidx.room.SkipQueryVerification
+androidx.room.SkipQueryVerification;androidx.room.SkipQueryVerification
+AndroidX.Room.ITransaction, Xamarin.AndroidX.Room.Common;androidx.room.Transaction
+AndroidX.Room.ITransaction;androidx.room.Transaction
+androidx.room.Transaction;androidx.room.Transaction
+AndroidX.Room.ITypeConverter, Xamarin.AndroidX.Room.Common;androidx.room.TypeConverter
+AndroidX.Room.ITypeConverter;androidx.room.TypeConverter
+androidx.room.TypeConverter;androidx.room.TypeConverter
+AndroidX.Room.ITypeConverters, Xamarin.AndroidX.Room.Common;androidx.room.TypeConverters
+AndroidX.Room.ITypeConverters;androidx.room.TypeConverters
+androidx.room.TypeConverters;androidx.room.TypeConverters
+AndroidX.Room.IUpdate, Xamarin.AndroidX.Room.Common;androidx.room.Update
+AndroidX.Room.IUpdate;androidx.room.Update
+androidx.room.Update;androidx.room.Update
+AndroidX.Room.IMultiInstanceInvalidationCallback, Xamarin.AndroidX.Room.Runtime;androidx.room.IMultiInstanceInvalidationCallback
+AndroidX.Room.IMultiInstanceInvalidationCallback;androidx.room.IMultiInstanceInvalidationCallback
+androidx.room.IMultiInstanceInvalidationCallback;androidx.room.IMultiInstanceInvalidationCallback
+AndroidX.Room.IMultiInstanceInvalidationService, Xamarin.AndroidX.Room.Runtime;androidx.room.IMultiInstanceInvalidationService
+AndroidX.Room.IMultiInstanceInvalidationService;androidx.room.IMultiInstanceInvalidationService
+androidx.room.IMultiInstanceInvalidationService;androidx.room.IMultiInstanceInvalidationService
 AndroidX.SavedState.ISavedStateRegistryOwner, Xamarin.AndroidX.SavedState;androidx.savedstate.SavedStateRegistryOwner
 AndroidX.SavedState.ISavedStateRegistryOwner;androidx.savedstate.SavedStateRegistryOwner
 androidx.savedstate.SavedStateRegistryOwner;androidx.savedstate.SavedStateRegistryOwner
@@ -1243,6 +1336,24 @@ androidx.slidingpanelayout.widget.SlidingPaneLayout$PanelSlideListener;androidx.
 AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerImplementor, Xamarin.AndroidX.SlidingPaneLayout;mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor
 AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout.IPanelSlideListenerImplementor;mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor
 mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor;mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+AndroidX.Sqlite.Db.ISupportSQLiteDatabase, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteDatabase
+AndroidX.Sqlite.Db.ISupportSQLiteDatabase;androidx.sqlite.db.SupportSQLiteDatabase
+androidx.sqlite.db.SupportSQLiteDatabase;androidx.sqlite.db.SupportSQLiteDatabase
+AndroidX.Sqlite.Db.ISupportSQLiteOpenHelperFactory, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteOpenHelper$Factory
+AndroidX.Sqlite.Db.ISupportSQLiteOpenHelperFactory;androidx.sqlite.db.SupportSQLiteOpenHelper$Factory
+androidx.sqlite.db.SupportSQLiteOpenHelper$Factory;androidx.sqlite.db.SupportSQLiteOpenHelper$Factory
+AndroidX.Sqlite.Db.ISupportSQLiteOpenHelper, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteOpenHelper
+AndroidX.Sqlite.Db.ISupportSQLiteOpenHelper;androidx.sqlite.db.SupportSQLiteOpenHelper
+androidx.sqlite.db.SupportSQLiteOpenHelper;androidx.sqlite.db.SupportSQLiteOpenHelper
+AndroidX.Sqlite.Db.ISupportSQLiteProgram, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteProgram
+AndroidX.Sqlite.Db.ISupportSQLiteProgram;androidx.sqlite.db.SupportSQLiteProgram
+androidx.sqlite.db.SupportSQLiteProgram;androidx.sqlite.db.SupportSQLiteProgram
+AndroidX.Sqlite.Db.ISupportSQLiteQuery, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteQuery
+AndroidX.Sqlite.Db.ISupportSQLiteQuery;androidx.sqlite.db.SupportSQLiteQuery
+androidx.sqlite.db.SupportSQLiteQuery;androidx.sqlite.db.SupportSQLiteQuery
+AndroidX.Sqlite.Db.ISupportSQLiteStatement, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteStatement
+AndroidX.Sqlite.Db.ISupportSQLiteStatement;androidx.sqlite.db.SupportSQLiteStatement
+androidx.sqlite.db.SupportSQLiteStatement;androidx.sqlite.db.SupportSQLiteStatement
 AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnChildScrollUpCallback, Xamarin.AndroidX.SwipeRefreshLayout;androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback
 AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout.IOnChildScrollUpCallback;androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback
 androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback;androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback
@@ -1330,6 +1441,69 @@ androidx.viewpager2.widget.ViewPager2$ScrollState;androidx.viewpager2.widget.Vie
 AndroidX.ViewPager2.Adapter.IStatefulAdapter, Xamarin.AndroidX.ViewPager2;androidx.viewpager2.adapter.StatefulAdapter
 AndroidX.ViewPager2.Adapter.IStatefulAdapter;androidx.viewpager2.adapter.StatefulAdapter
 androidx.viewpager2.adapter.StatefulAdapter;androidx.viewpager2.adapter.StatefulAdapter
+AndroidX.Work.Configuration+IProvider, Xamarin.AndroidX.Work.Runtime;androidx.work.Configuration$Provider
+AndroidX.Work.Configuration.IProvider;androidx.work.Configuration$Provider
+androidx.work.Configuration$Provider;androidx.work.Configuration$Provider
+AndroidX.Work.IForegroundUpdater, Xamarin.AndroidX.Work.Runtime;androidx.work.ForegroundUpdater
+AndroidX.Work.IForegroundUpdater;androidx.work.ForegroundUpdater
+androidx.work.ForegroundUpdater;androidx.work.ForegroundUpdater
+AndroidX.Work.IOperation, Xamarin.AndroidX.Work.Runtime;androidx.work.Operation
+AndroidX.Work.IOperation;androidx.work.Operation
+androidx.work.Operation;androidx.work.Operation
+AndroidX.Work.IProgressUpdater, Xamarin.AndroidX.Work.Runtime;androidx.work.ProgressUpdater
+AndroidX.Work.IProgressUpdater;androidx.work.ProgressUpdater
+androidx.work.ProgressUpdater;androidx.work.ProgressUpdater
+AndroidX.Work.IRunnableScheduler, Xamarin.AndroidX.Work.Runtime;androidx.work.RunnableScheduler
+AndroidX.Work.IRunnableScheduler;androidx.work.RunnableScheduler
+androidx.work.RunnableScheduler;androidx.work.RunnableScheduler
+AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListener, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.utils.WorkTimer$TimeLimitExceededListener
+AndroidX.Work.Impl.Utils.WorkTimer.ITimeLimitExceededListener;androidx.work.impl.utils.WorkTimer$TimeLimitExceededListener
+androidx.work.impl.utils.WorkTimer$TimeLimitExceededListener;androidx.work.impl.utils.WorkTimer$TimeLimitExceededListener
+AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListenerImplementor, Xamarin.AndroidX.Work.Runtime;mono.androidx.work.impl.utils.WorkTimer_TimeLimitExceededListenerImplementor
+AndroidX.Work.Impl.Utils.WorkTimer.ITimeLimitExceededListenerImplementor;mono.androidx.work.impl.utils.WorkTimer_TimeLimitExceededListenerImplementor
+mono.androidx.work.impl.utils.WorkTimer_TimeLimitExceededListenerImplementor;mono.androidx.work.impl.utils.WorkTimer_TimeLimitExceededListenerImplementor
+AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutor, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.utils.taskexecutor.TaskExecutor
+AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutor;androidx.work.impl.utils.taskexecutor.TaskExecutor
+androidx.work.impl.utils.taskexecutor.TaskExecutor;androidx.work.impl.utils.taskexecutor.TaskExecutor
+AndroidX.Work.Impl.Model.IDependencyDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.DependencyDao
+AndroidX.Work.Impl.Model.IDependencyDao;androidx.work.impl.model.DependencyDao
+androidx.work.impl.model.DependencyDao;androidx.work.impl.model.DependencyDao
+AndroidX.Work.Impl.Model.IPreferenceDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.PreferenceDao
+AndroidX.Work.Impl.Model.IPreferenceDao;androidx.work.impl.model.PreferenceDao
+androidx.work.impl.model.PreferenceDao;androidx.work.impl.model.PreferenceDao
+AndroidX.Work.Impl.Model.IRawWorkInfoDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.RawWorkInfoDao
+AndroidX.Work.Impl.Model.IRawWorkInfoDao;androidx.work.impl.model.RawWorkInfoDao
+androidx.work.impl.model.RawWorkInfoDao;androidx.work.impl.model.RawWorkInfoDao
+AndroidX.Work.Impl.Model.ISystemIdInfoDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.SystemIdInfoDao
+AndroidX.Work.Impl.Model.ISystemIdInfoDao;androidx.work.impl.model.SystemIdInfoDao
+androidx.work.impl.model.SystemIdInfoDao;androidx.work.impl.model.SystemIdInfoDao
+AndroidX.Work.Impl.Model.IWorkNameDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.WorkNameDao
+AndroidX.Work.Impl.Model.IWorkNameDao;androidx.work.impl.model.WorkNameDao
+androidx.work.impl.model.WorkNameDao;androidx.work.impl.model.WorkNameDao
+AndroidX.Work.Impl.Model.IWorkProgressDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.WorkProgressDao
+AndroidX.Work.Impl.Model.IWorkProgressDao;androidx.work.impl.model.WorkProgressDao
+androidx.work.impl.model.WorkProgressDao;androidx.work.impl.model.WorkProgressDao
+AndroidX.Work.Impl.Model.IWorkSpecDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.WorkSpecDao
+AndroidX.Work.Impl.Model.IWorkSpecDao;androidx.work.impl.model.WorkSpecDao
+androidx.work.impl.model.WorkSpecDao;androidx.work.impl.model.WorkSpecDao
+AndroidX.Work.Impl.Model.IWorkTagDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.WorkTagDao
+AndroidX.Work.Impl.Model.IWorkTagDao;androidx.work.impl.model.WorkTagDao
+androidx.work.impl.model.WorkTagDao;androidx.work.impl.model.WorkTagDao
+AndroidX.Work.Impl.Foreground.IForegroundProcessor, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.foreground.ForegroundProcessor
+AndroidX.Work.Impl.Foreground.IForegroundProcessor;androidx.work.impl.foreground.ForegroundProcessor
+androidx.work.impl.foreground.ForegroundProcessor;androidx.work.impl.foreground.ForegroundProcessor
+AndroidX.Work.Impl.Constraints.IConstraintListener, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.constraints.ConstraintListener
+AndroidX.Work.Impl.Constraints.IConstraintListener;androidx.work.impl.constraints.ConstraintListener
+androidx.work.impl.constraints.ConstraintListener;androidx.work.impl.constraints.ConstraintListener
+AndroidX.Work.Impl.Constraints.IConstraintListenerImplementor, Xamarin.AndroidX.Work.Runtime;mono.androidx.work.impl.constraints.ConstraintListenerImplementor
+AndroidX.Work.Impl.Constraints.IConstraintListenerImplementor;mono.androidx.work.impl.constraints.ConstraintListenerImplementor
+mono.androidx.work.impl.constraints.ConstraintListenerImplementor;mono.androidx.work.impl.constraints.ConstraintListenerImplementor
+AndroidX.Work.Impl.Constraints.IWorkConstraintsCallback, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.constraints.WorkConstraintsCallback
+AndroidX.Work.Impl.Constraints.IWorkConstraintsCallback;androidx.work.impl.constraints.WorkConstraintsCallback
+androidx.work.impl.constraints.WorkConstraintsCallback;androidx.work.impl.constraints.WorkConstraintsCallback
+AndroidX.Work.Impl.Constraints.Controllers.ConstraintController+IOnConstraintUpdatedCallback, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.constraints.controllers.ConstraintController$OnConstraintUpdatedCallback
+AndroidX.Work.Impl.Constraints.Controllers.ConstraintController.IOnConstraintUpdatedCallback;androidx.work.impl.constraints.controllers.ConstraintController$OnConstraintUpdatedCallback
+androidx.work.impl.constraints.controllers.ConstraintController$OnConstraintUpdatedCallback;androidx.work.impl.constraints.controllers.ConstraintController$OnConstraintUpdatedCallback
 Xamarin.CommunityToolkit.Android.UI.Views.SideMenuViewRenderer, Xamarin.CommunityToolkit;crc645b8ccbad6ecd7dce.SideMenuViewRenderer
 Xamarin.CommunityToolkit.Android.UI.Views.SideMenuViewRenderer;crc645b8ccbad6ecd7dce.SideMenuViewRenderer
 xamarin.communitytoolkit.android.ui.views.SideMenuViewRenderer;crc645b8ccbad6ecd7dce.SideMenuViewRenderer

@@ -5,11 +5,31 @@
     <Application.Resources>
         <ResourceDictionary>
             <Color x:Key="blueColor">#1E90FF</Color>
-            <Color x:Key="whiteColor">#FFFFFF</Color>
+            <Color x:Key="grayColor">#C0C0C0</Color>
+            <Color x:Key="backgroundPopupColor">#E0E0E0</Color>
+            <Color x:Key="purpleColor">#3F51B5</Color>
             <Style x:Key="normalButton" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="{StaticResource blueColor}"/>
-                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource grayColor}"/>
             </Style>
+            <Style x:Key="popupButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource purpleColor}"/>
+                <Setter Property="BorderColor" Value="{StaticResource grayColor}"/>
+                <Setter Property="BorderWidth" Value="3"/>
+            </Style>
+            <Style x:Key="popupStackLayout" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="{StaticResource backgroundPopupColor}"/>
+            </Style>
+            <Style x:Key="titleLabel" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style x:Key="basicLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

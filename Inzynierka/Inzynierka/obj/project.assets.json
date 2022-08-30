@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Microcharts/0.9.5.8": {
+      "Microcharts/0.9.5.9": {
         "type": "package",
         "dependencies": {
           "SkiaSharp": "2.80.2",
@@ -55,6 +55,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Plugin.LocalNotification/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.LocalNotification.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.LocalNotification.dll": {}
         }
       },
       "SkiaSharp/2.80.2": {
@@ -339,10 +348,10 @@
     }
   },
   "libraries": {
-    "Microcharts/0.9.5.8": {
-      "sha512": "igm9t5XVPR4Zm3IYp0zWgVdAdIbDMwT4Mcu8uV45nHyt9iI9cyxhu5UO6fjucWNvHb+GS5ttpYjnOH935gIv4A==",
+    "Microcharts/0.9.5.9": {
+      "sha512": "oiaPjsC+l211tRXw17bxT7D1uPHLZG4wZq7w9h9w7LFX76s4ppLN9UGVkUQJ2vBammdFH0JXtbvEUVtbOq85UQ==",
       "type": "package",
-      "path": "microcharts/0.9.5.8",
+      "path": "microcharts/0.9.5.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -355,7 +364,7 @@
         "lib/xamarinios1.0/Microcharts.iOS.dll",
         "lib/xamarinmac2.0/Microcharts.dll",
         "lib/xamarinmac2.0/Microcharts.macOS.dll",
-        "microcharts.0.9.5.8.nupkg.sha512",
+        "microcharts.0.9.5.9.nupkg.sha512",
         "microcharts.nuspec"
       ]
     },
@@ -514,6 +523,26 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Plugin.LocalNotification/5.2.0": {
+      "sha512": "5F4CXTSMtiJe6bw2EqFgZ2qtQuQxqdRdA0NwjbnX9tB9/q7KN/I7NQFU7DqBIOFiylEFJe34tl97YM6XMFWsxg==",
+      "type": "package",
+      "path": "plugin.localnotification/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid10.0/Plugin.LocalNotification.dll",
+        "lib/monoandroid10.0/Plugin.LocalNotification.xml",
+        "lib/netstandard2.0/Plugin.LocalNotification.dll",
+        "lib/netstandard2.0/Plugin.LocalNotification.xml",
+        "lib/netstandard2.1/Plugin.LocalNotification.dll",
+        "lib/netstandard2.1/Plugin.LocalNotification.xml",
+        "lib/xamarinios10/Plugin.LocalNotification.dll",
+        "lib/xamarinios10/Plugin.LocalNotification.xml",
+        "plugin.localnotification.5.2.0.nupkg.sha512",
+        "plugin.localnotification.nuspec"
       ]
     },
     "SkiaSharp/2.80.2": {
@@ -1348,8 +1377,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Microcharts >= 0.9.5.9",
       "Microcharts.Forms >= 0.9.5.8",
       "NETStandard.Library >= 2.0.3",
+      "Plugin.LocalNotification >= 5.2.0",
       "Xamarin.CommunityToolkit >= 2.0.4",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2291",
@@ -1400,6 +1431,10 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "Microcharts": {
+            "target": "Package",
+            "version": "[0.9.5.9, )"
+          },
           "Microcharts.Forms": {
             "target": "Package",
             "version": "[0.9.5.8, )"
@@ -1409,6 +1444,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Plugin.LocalNotification": {
+            "target": "Package",
+            "version": "[5.2.0, )"
           },
           "Xamarin.CommunityToolkit": {
             "target": "Package",

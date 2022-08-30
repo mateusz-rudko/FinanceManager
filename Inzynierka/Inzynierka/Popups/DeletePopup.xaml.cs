@@ -20,13 +20,11 @@ namespace Inzynierka.Popups
             InitializeComponent();
             
         }
-
-        private async void YesButtonClicked(object sender, EventArgs e)
+        private void YesButtonClicked(object sender, EventArgs e)
         {
-            await App.Database.RemoveTransaction(_transaction);
+            App.Database.RemoveTransaction(_transaction);
             Dismiss(null);
-            await Application.Current.MainPage.Navigation.PopModalAsync();
-           
+            Application.Current.MainPage.Navigation.PopModalAsync();    
         }
         private void NoButtonClicked(object sender, EventArgs e)
         {

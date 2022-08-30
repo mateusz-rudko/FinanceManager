@@ -7,25 +7,25 @@
         <StackLayout>
             <Label x:Name="Income" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center" Text="Income" IsVisible="false"/>
             <Label x:Name="Expense" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center" Text="Expense" IsVisible="false"/>
-            
+
 
             <StackLayout >
-                <Label Text="Name:" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Name:" Style="{x:StaticResource basicLabel}"/>
                 <Label FontSize="18" x:Name="nameLbl" />
 
-                <Label Text="Price:" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Price:" Style="{x:StaticResource basicLabel}"/>
                 <Label FontSize="18" x:Name="priceLbl" />
 
-                <Label Text="Category:" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Category:" Style="{x:StaticResource basicLabel}"/>
                 <Label FontSize="18" x:Name="categoryLbl"/>
 
-                <Label Text="Description:" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Description:" Style="{x:StaticResource basicLabel}"/>
                 <Label FontSize="18" x:Name="descriptionLbl" />
                 
                 <Label FontSize="18" x:Name="isIncomeLbl" IsVisible="false"/>
 
-                <Label Text="Date" FontSize="18" FontAttributes="Bold"/>
-                <Label FontSize="18" x:Name="dateLbl"/>
+                <Label Text="Date" Style="{x:StaticResource basicLabel}"/>
+                <Label FontSize="18" x:Name="dateLbl" />
             </StackLayout>
 
             <Grid ColumnDefinitions="1*, 1*, 1*" RowDefinitions="1*, Auto">

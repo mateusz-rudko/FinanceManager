@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Inzynierka.Models;
 using SQLite;
 
+
 namespace Inzynierka.Services
 {
     public class DataBaseConnection
@@ -19,6 +20,7 @@ namespace Inzynierka.Services
         {
             return _database.Table<Transaction>().ToListAsync();
         }
+       
         public Task<int> AddNewTransaction(Transaction transaction)
         {
             return _database.InsertAsync(transaction);

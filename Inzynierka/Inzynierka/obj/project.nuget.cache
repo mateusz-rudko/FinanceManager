@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ZClPv+zA68PNmYGgYtSg2mX+QZ6FADrwz/D8VGhgMrPK+9IMzW33YvtAa437bi/yb0htBFqZBzzKBcuyrRdufw==",
+  "dgSpecHash": "Q4/jbfe7HBvp/5H8P6S6iOsqfXbMT4PYXvbS129Gr1oYj39axDh0VuuX0Nr8NX59wlmcNKqBhHJRhER8wbHiXA==",
   "success": true,
   "projectFilePath": "C:\\ProjektyNET\\PracaInzynierska\\Inzynierka\\Inzynierka\\Inzynierka\\Inzynierka.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ToNieJa\\.nuget\\packages\\microcharts\\0.9.5.8\\microcharts.0.9.5.8.nupkg.sha512",
+    "C:\\Users\\ToNieJa\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\microcharts.forms\\0.9.5.8\\microcharts.forms.0.9.5.8.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ToNieJa\\.nuget\\packages\\plugin.localnotification\\5.2.0\\plugin.localnotification.5.2.0.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\skiasharp\\2.80.2\\skiasharp.2.80.2.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\skiasharp.views.forms\\2.80.2\\skiasharp.views.forms.2.80.2.nupkg.sha512",
     "C:\\Users\\ToNieJa\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",

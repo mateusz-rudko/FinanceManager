@@ -25,7 +25,7 @@ namespace Inzynierka.Popups
         {
             await App.Database.UpdateTransaction(_transaction);
             Dismiss(null);
-            Console.WriteLine("GOWBNO SDSADJSAKLDJSALKJDSAKLDJA" + _transaction.Name.ToString());
+         
 
         }
         private void NoButtonClicked(object sender, EventArgs e)

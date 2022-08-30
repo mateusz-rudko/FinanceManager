@@ -1,5 +1,6 @@
 FormsViewGroup.dll
 Microcharts.Droid.dll
+Plugin.LocalNotification.dll
 SkiaSharp.dll
 SkiaSharp.Views.Android.dll
 SkiaSharp.Views.Forms.dll
@@ -34,6 +35,7 @@ Xamarin.AndroidX.Lifecycle.Common.dll
 Xamarin.AndroidX.Lifecycle.LiveData.Core.dll
 Xamarin.AndroidX.Lifecycle.LiveData.dll
 Xamarin.AndroidX.Lifecycle.Runtime.dll
+Xamarin.AndroidX.Lifecycle.Service.dll
 Xamarin.AndroidX.Lifecycle.ViewModel.dll
 Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll
 Xamarin.AndroidX.Loader.dll
@@ -46,8 +48,12 @@ Xamarin.AndroidX.Navigation.UI.dll
 Xamarin.AndroidX.Preference.dll
 Xamarin.AndroidX.Print.dll
 Xamarin.AndroidX.RecyclerView.dll
+Xamarin.AndroidX.Room.Common.dll
+Xamarin.AndroidX.Room.Runtime.dll
 Xamarin.AndroidX.SavedState.dll
 Xamarin.AndroidX.SlidingPaneLayout.dll
+Xamarin.AndroidX.Sqlite.dll
+Xamarin.AndroidX.Sqlite.Framework.dll
 Xamarin.AndroidX.SwipeRefreshLayout.dll
 Xamarin.AndroidX.Tracing.Tracing.dll
 Xamarin.AndroidX.Transition.dll
@@ -56,6 +62,7 @@ Xamarin.AndroidX.VectorDrawable.dll
 Xamarin.AndroidX.VersionedParcelable.dll
 Xamarin.AndroidX.ViewPager.dll
 Xamarin.AndroidX.ViewPager2.dll
+Xamarin.AndroidX.Work.Runtime.dll
 Xamarin.CommunityToolkit.dll
 Xamarin.Essentials.dll
 Xamarin.Forms.Platform.Android.dll
@@ -108,3 +115,8 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
+androidx.sqlite.sqlite.aar
+androidx.sqlite.sqlite-framework.aar
+androidx.room.room-runtime.aar
+androidx.lifecycle.lifecycle-service.aar
+androidx.work.work-runtime.aar

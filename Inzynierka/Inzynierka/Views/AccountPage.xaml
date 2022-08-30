@@ -9,18 +9,19 @@
         <ScrollView>
             <StackLayout >
 
-                <Grid ColumnDefinitions="1*, 1*" RowDefinitions="1*, Auto">
+                <Grid ColumnDefinitions="1*, 1*" RowDefinitions="1*, 1*">
                     <Button Grid.Row="0" Grid.Column="0" TextColor="White" Text="Add New Income" Clicked="IncomeButtonClicked"/>
                     <Button Grid.Row="0" Grid.Column="1" TextColor="White" Text="Add New Expense" Clicked="ExpenseButtonClicked"/>
+                    <Button Grid.Row="1" Grid.ColumnSpan="2" TextColor="White" Text="Notifications" Clicked="NotificationPageClicked"/>
                 </Grid>
-                <Label Text="Historia wpływów i wydatków" HorizontalOptions="Center" FontSize="25" FontAttributes="Bold"/>
+                <Label Text="Historia wpływów i wydatków" Style="{StaticResource titleLabel}"/>
                 <ListView x:Name="HistoryList" ItemSelected="HistoryItem_Tapped" HasUnevenRows="True" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
                                 <ViewCell.View >
                                     <StackLayout  >
-                                        <Frame BorderColor="Azure" CornerRadius="13" BackgroundColor="Gray">
+                                        <Frame BorderColor="Azure" CornerRadius="13" BackgroundColor="{StaticResource grayColor}">
                                             <Grid ColumnDefinitions="*,*,*" RowDefinitions="Auto,Auto,Auto">
                                                 <Label x:Name="categoryLabel" Grid.Column="1" Grid.Row="0" HorizontalTextAlignment="Center" FontSize="18" Text="{Binding Category}"/>
                                                 <Label x:Name="nameLabel" Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="Center" FontSize="18" Text="{Binding Name}"/>
@@ -28,7 +29,7 @@
                                                 <Label x:Name="isIncomeLabel" Grid.Column="2" Grid.Row="1" HorizontalTextAlignment="Center" FontSize="18" Text="{Binding IsIncome}"/>
                                                 <Label x:Name="descriptionLabel" Grid.Column="1" Grid.Row="2" FontSize="18" HorizontalTextAlignment="Center" Text="{Binding Description}"/>
 
-                                                <Label x:Name="dateLabel"  Grid.Column="2" Grid.Row="2" HorizontalTextAlignment="Center" FontSize="18" Text="{Binding Date}"/>
+                                                <Label x:Name="dateLabel" Grid.Column="2" Grid.Row="2" HorizontalTextAlignment="Center" FontSize="18" Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}"/>
 
                                             </Grid>
                                         </Frame>

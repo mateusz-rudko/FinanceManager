@@ -9,6 +9,7 @@ namespace Inzynierka
     public partial class App : Application
     {
         private static DataBaseConnection database;
+        private static NotificationDataBaseConnection notoficationsDatabase;
         public static DataBaseConnection Database
         {
             get
@@ -18,6 +19,17 @@ namespace Inzynierka
                     database = new DataBaseConnection(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),"finance_db.db3"));
                 }
                 return database;
+            }
+        }
+        public static NotificationDataBaseConnection NotoficationsDatabase
+        {
+            get 
+            {
+                if(notoficationsDatabase == null)
+                {
+                    notoficationsDatabase = new NotificationDataBaseConnection(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "notofications_db.db3"));
+                }
+                return notoficationsDatabase; 
             }
         }
         public App()

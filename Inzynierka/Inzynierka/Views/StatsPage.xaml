@@ -5,15 +5,31 @@
              x:Class="Inzynierka.Views.StatsPage"
              BackgroundColor="	#ccccff">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Stats"
-                
-                HorizontalOptions="CenterAndExpand" />
-            <Frame CornerRadius="15" BorderColor="#213" BackgroundColor="#213" Padding="5" Margin="10">
-                <Frame CornerRadius="11">
-                    <forms:ChartView x:Name="Chart1" HeightRequest="200" HorizontalOptions="FillAndExpand"/>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Stats" Style="{x:StaticResource titleLabel}" />
+
+                <DatePicker x:Name="datePickerStart" HorizontalOptions="Center"/>
+                <DatePicker x:Name="datePickerEnd" HorizontalOptions="Center"/>
+
+                <Button Text="Filter" Clicked="filterButtonClicked"/>
+
+                <Label x:Name="Incomes" Text="Incomes" Style="{x:StaticResource basicLabel}"/>
+                <Frame CornerRadius="15" BorderColor="#213" BackgroundColor="#213" Padding="5" Margin="10" >
+                    <Frame CornerRadius="11">
+                        <forms:ChartView x:Name="chartViewLineForIncomes" HeightRequest="180" HorizontalOptions="FillAndExpand"/>
+                    </Frame>
                 </Frame>
-            </Frame>
-        </StackLayout>
+                <Label x:Name="isIncomeLabel"  Text="Empty Income database" Style="{x:StaticResource basicLabel}" />
+
+                <Label Text="Expenses" Style="{x:StaticResource basicLabel}"/>
+                <Frame CornerRadius="15" BorderColor="#213" BackgroundColor="#213" Padding="5" Margin="10" >
+                    <Frame CornerRadius="11">
+                        <forms:ChartView x:Name="chartViewLineForExpenses" HeightRequest="180" HorizontalOptions="FillAndExpand"/>
+                    </Frame>
+                </Frame>
+                <Label x:Name="isExpenseLabel" Text="Empty database" Style="{x:StaticResource basicLabel}" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
